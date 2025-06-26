@@ -22,7 +22,9 @@ A minimalistic and animated tab component built with **React**, **Tailwind CSS**
 ---
 
 
-# Tabs View Minimal
+# 🧪 Tabs View: Minimal
+Simple, modern tab layout with elegant transitions.
+
 
 <Tabs defaultValue="preview" className="">
   <TabsList>
@@ -57,64 +59,3 @@ A minimalistic and animated tab component built with **React**, **Tailwind CSS**
 
 
 
-# Tabs View Classic
-
-<Tabs defaultValue="preview" className="">
-  <TabsList>
-    <TabsTrigger value="preview">Preview</TabsTrigger>
-    <TabsTrigger value="code">Code</TabsTrigger>
-  </TabsList>
-  <TabsContent value="preview">
-    <ComponentRenderer component={<TabsViewClassic />} />
-  </TabsContent>
-  <TabsContent value="code">
-    <CodeBlock filePath="src/app/docs/tabs/tabs-view-classic.tsx" />
-  </TabsContent>
-</Tabs>
-
-
-<Tabs defaultValue="cli" className="">
-  <TabsList>
-    <TabsTrigger value="cli">CLI</TabsTrigger>
-    <TabsTrigger value="manual">Manual</TabsTrigger>
-  </TabsList>
-  <TabsContent value="cli">
-    <Cli command={`add tabs-classic.json`} />
-  </TabsContent>
-
-  <TabsContent value="manual">
-    <CodeBlock filePath="src/app/docs/tabs/tabs-view-classic.tsx" />
-  </TabsContent>
-</Tabs>
-
-
-# Tabs View Fancy
-
-
-<Tabs defaultValue="preview" className="">
-  <TabsList>
-    <TabsTrigger value="preview">Preview</TabsTrigger>
-    <TabsTrigger value="code">Code</TabsTrigger>
-  </TabsList>
-  <TabsContent value="preview">
-    <ComponentRenderer component={<TabsViewFancy />} />
-  </TabsContent>
-  <TabsContent value="code">
-    <CodeBlock filePath="src/app/docs/tabs/tabs-view-fancy.tsx" />
-  </TabsContent>
-</Tabs>
-
-
-<Tabs defaultValue="cli" className="">
-  <TabsList>
-    <TabsTrigger value="cli">CLI</TabsTrigger>
-    <TabsTrigger value="manual">Manual</TabsTrigger>
-  </TabsList>
-  <TabsContent value="cli">
-    <Cli command={`add tabs-classic.json`} />
-  </TabsContent>
-
-  <TabsContent value="manual">
-    <CodeBlock filePath="src/app/docs/tabs/tabs-view-fancy.tsx" />
-  </TabsContent>
-</Tabs>
