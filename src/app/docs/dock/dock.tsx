@@ -11,8 +11,6 @@ import {
 import { useTheme } from "next-themes";
 
 
-
-
 // --- SVG Icon Components ---
 // No changes were made to the icon components. They are included for completeness.
 const HomeIcon = ({ className }: { className?: string }) => (
